@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>StartupBuddy</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <h1>StartupBuddy</h1>
+</nav>
+
+<section class="hero">
+  <h2>Turn Your Interests Into Business Ideas</h2>
+
+  <input
+    type="text"
+    id="interest"
+    placeholder="Example: Cars, gaming, sports"
+  >
+
+  <button onclick="generateIdea()">
+    Generate Business Idea
+  </button>
+
+  <div id="result"></div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>

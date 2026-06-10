@@ -1,0 +1,29 @@
+body{
+  background:#111;
+  color:white;
+  font-family:Arial;
+  text-align:center;
+}
+
+nav{
+  padding:20px;
+}
+
+.hero{
+  margin-top:100px;
+}
+
+input{
+  padding:12px;
+  width:300px;
+}
+
+button{
+  padding:12px 20px;
+  cursor:pointer;
+}
+
+#result{
+  margin-top:30px;
+  font-size:20px;
+}
